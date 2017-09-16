@@ -1,0 +1,245 @@
+html{
+	font-size: 10px;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+a:focus{
+	outline: none;
+}
+
+.main{
+	position: relative;
+	display: table;
+	width: 100%;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	height: 100vh;
+	background: #000 url(../img/main-bg.jpg) center center no-repeat;
+}
+
+.main-header{
+	position: relative;
+	z-index: 3;
+}
+.main h1{
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+	font-size: 4rem;
+	font-weight: 400;
+}
+
+.main p{
+	font-size: 2.5rem;
+}
+
+.main-overlay{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, .3);
+	z-index: 1;
+}
+
+.wrapper{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.main-line{
+	width: 20rem;
+	height: 1px;
+	background-color: #FFF;
+	margin: 0 auto
+}
+
+.main-down{
+	position: absolute;
+	display: inline-block;
+	bottom: 2rem;
+	font-size: 2rem;
+	color: #FFF;
+	left: 50%;
+	width: 5rem;
+	margin-left: -2.5rem;
+	z-index: 4;
+	border: 1px solid transparent;
+	line-height: 5rem;
+	border-radius: 5rem;
+	transition: .2s;
+}
+
+.main-down:hover{
+	color: #FFF;
+	border: 1px solid #fff;
+}
+
+/* Секция портфолио */
+.portfolio{
+	padding: 10px 0;
+	text-align: center;
+}
+.section-header{
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+	font-size: 3.6rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 5rem;
+}
+
+.portfolio img{
+	width: 100%;
+	max-width: 36rem;
+	box-shadow: 0px 4px 29px 0px rgba(87, 92, 97, 0.54);
+}
+
+.portfolio-block a{
+	width: 12rem;
+	text-align: center;
+	display: block;
+	margin-top: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4rem;
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+}
+
+.portfolio-block a:hover{
+	border-bottom: 1px dotted #333;
+}
+
+/* Секция подвал */
+
+.footer{
+	background-color: #646464;
+	color: #fff;
+	padding: 3rem 0;
+	text-align: center;
+}
+
+.footer strong{
+	display: inline-block;
+	font-weight: 300;
+	font-size: 2.4rem;
+}
+
+
+.social-links{
+	margin-top: 1rem;
+}
+
+.social-links a{
+	width: 5rem;
+	height: 5rem;
+	line-height: 5rem;
+	display: inline-block;
+	color: #fff;
+	border: 1px  solid #fff;
+	border-radius: 50%;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	font-size: 2rem;
+	transition: .2s;
+}
+
+.social-links a:hover{
+	background-color: #FFF;
+	color: #646464;
+}
+
+.offer-btn{
+	display: block;
+	width: 80%;
+	max-width: 30rem;
+	margin: 1rem auto;
+	border: 1px solid #fff;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: #fff;
+	border-radius: 100px;
+}
+
+.offer-btn:hover{
+	text-decoration: none;
+	color: #646464;
+	background-color: #FFF;
+}
+
+.modal-body img{
+	width: 100%;
+}
+
+.close{
+	border: none;
+	background: none;
+	position: absolute;
+	right: 2rem;
+	top: 1rem;
+	font-size: 2rem;
+}
+
+.order-link{
+	display: inline-block;
+	border: 1px solid #646464;
+	border-radius: 5px;
+	color: #646464;
+	padding: 1rem 2rem;
+	
+}
+
+.order-link:hover{
+	color: #fff;
+	background-color: #646464;
+	text-decoration: none;
+}
+
+@media (min-width: 0) and (max-width: 767px){
+	html{
+		font-size: 8px;
+	}
+
+	.portfolio-block a{
+		width: 15rem;
+	}
+
+	.footer strong{
+		padding: 1.3rem 0;
+	}
+
+	.social-links{
+		margin-bottom: 2rem;
+	}
+	.social-links a{
+		font-size: 1.7rem;
+	}
+}
+
+@media (min-width: 768) and (max-width: 991px){
+	html{
+		font-size: 8px;
+	}
+
+	.portfolio-block a{
+		width: 15rem;
+	}
+
+	.footer strong{
+		padding: 1.3rem 0;
+	}
+
+	.social-links{
+		margin-bottom: 2rem;
+	}
+
+	.social-links a{
+		font-size: 1.2rem;
+	}
+}
