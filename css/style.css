@@ -79,6 +79,10 @@ a:focus{
 	border: 1px solid #fff;
 }
 
+.main-down:visited{
+	color: #FFF;
+}
+
 /* Секция портфолио */
 .portfolio{
 	padding: 10px 0;
