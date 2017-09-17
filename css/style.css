@@ -6,7 +6,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
-a:focus, a:visited, a:active{
+a:focus, a:active{
 	outline: none;
 	color: #FFF;
 }
