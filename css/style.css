@@ -10,6 +10,10 @@ a:focus{
 	outline: none;
 }
 
+a:visited{
+	color: #FFF;
+}
+
 .main{
 	position: relative;
 	display: table;
@@ -79,9 +83,7 @@ a:focus{
 	border: 1px solid #fff;
 }
 
-.main-down:visited{
-	color: #FFF;
-}
+
 
 /* Секция портфолио */
 .portfolio{
