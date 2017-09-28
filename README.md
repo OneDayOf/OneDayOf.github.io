@@ -10,7 +10,7 @@
 
 [Урок 4](https://codepen.io/OneDayToLive/pen/YrqRLd "Знакомство с основами HTML") - Знакомство с основами HTML
 
-[Урок 5](OneDayOf/OneDayOf.github.io/homeworks/lesson_5 "Знакомство с основами CSS") - Знакомство с основами CSS
+[Урок 5](https://codepen.io/OneDayToLive/pen/xXOjxz "Знакомство с основами CSS") - Знакомство с основами CSS
 
 [Урок 6](OneDayOf/OneDayOf.github.io/homeworks/lesson_6 "Позиционирование CSS") - Позиционирование CSS
 
