@@ -8,7 +8,7 @@
 
 [Урок 3](OneDayOf/OneDayOf.github.io/homeworks/lesson_3 "Настройка рабочего пространства") - Настройка рабочего пространства
 
-[Урок 4](OneDayOf/OneDayOf.github.io/homeworks/lesson_4 "Знакомство с основами HTML") - Знакомство с основами HTML
+[Урок 4](https://codepen.io/OneDayToLive/pen/YrqRLd "Знакомство с основами HTML") - Знакомство с основами HTML
 
 [Урок 5](OneDayOf/OneDayOf.github.io/homeworks/lesson_5 "Знакомство с основами CSS") - Знакомство с основами CSS
 
