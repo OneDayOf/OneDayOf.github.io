@@ -12,7 +12,8 @@
 
 [Урок 5](https://codepen.io/OneDayToLive/pen/xXOjxz "Знакомство с основами CSS") - Знакомство с основами CSS
 
-[Урок 6](OneDayOf/OneDayOf.github.io/homeworks/lesson_6 "Позиционирование CSS") - Позиционирование CSS
+[Урок 6](https://codepen.io/OneDayToLive/pen/eGdRbB "Позиционирование CSS") - Позиционирование CSS(Часть 1)
+[Урок 6](https://codepen.io/OneDayToLive/pen/yzaXrJ "Позиционирование CSS") - Позиционирование CSS(Часть 2)
 
 [Урок 7](OneDayOf/OneDayOf.github.io/homeworks/lesson_7 "Верстка первого макета") - Верстка первого макета
 
