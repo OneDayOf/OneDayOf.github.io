@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+}
+
+.section{
+	margin: 60px auto;
+}
+.header{
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 60px;
+}
+
+.header span{
+	display: block;
+}
+
+.header strong{
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.video{
+	padding: 0;
+}
+
+.form{
+	border: 5px solid #3c3cdd;
+	padding: 35px 20px;
+	height: 315px;
+}
+.form-header{
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.form input{
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+.form-btn{
+	background-color: #3c3cdd;
+}
+
+.feature-header, .our-clients{
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 60px;
+}
+
+.feature{
+	margin: 30px auto;
+}
+
+.feature-item{
+	height: 160px;
+}
+.feature-item p{
+	margin: 10px auto;
+}
+
+.cl-item{
+	margin-bottom: 20px;
+}

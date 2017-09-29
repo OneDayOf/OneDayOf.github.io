@@ -1,0 +1,96 @@
+body{
+	font-family: 'Tahoma', sans-serif;
+}
+
+.section{
+	text-align: center;
+	margin: 80px auto;
+}
+
+.header{
+	font-size: 24px;
+	text-align: center;
+	margin: 80px auto;
+}
+
+.header span{
+	display: block;
+	text-transform: none;
+}
+
+.header strong{
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.main{
+	margin-top: 80px;
+	
+}
+
+.video, .form{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.form{
+	border: 5px solid #3c3cdd;
+	width: 350px;
+	height: 305px;
+	padding: 20px;
+	margin-left: 30px;
+}
+
+.form-header{
+	font-weight: 900;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.form input{
+	width: 300px;
+	padding: 15px;
+	border: 1px solid #333;
+	font-size: 18px;
+	margin-bottom: 11px;
+}
+
+.btn{
+	width: 300px;
+	height: 50px;
+	color: #fff;
+	background-color: #3c3cdd;
+	border: none;
+	font-size: 18px;
+}
+
+.col{
+	display: inline-block;
+	text-align: center;
+	margin: 10px 50px;
+}
+
+.feature-header, .clients-header{
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.feature{
+	margin: 60px auto;
+	text-align: center;
+}
+
+.clients{
+	width: 950px;
+	margin: 80PX AUTO;
+	text-align: center;
+}
+
+.client-col{
+	display: inline-block;
+	text-align: center;
+	margin: 10px 5px;
+}
