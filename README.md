@@ -34,3 +34,4 @@
 
 [Урок 14](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_14 "Подключение шрифтов.") - Подключение шрифтов.
 
+[Практика Часть 2](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_practice_2 "Практика. Часть 2.") - Практика. Часть 2.
