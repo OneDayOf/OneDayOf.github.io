@@ -30,7 +30,7 @@
 
 [Урок 13](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_13 "Адаптивная верстка") - Адаптивная верстка
 
-[Практика Часть 1](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_14 "Практика. Часть 1.") - Практика. Часть 1.
+[Практика Часть 1](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_practive_1 "Практика. Часть 1.") - Практика. Часть 1.
 
 [Урок 14](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_14 "Подключение шрифтов.") - Подключение шрифтов.
 
