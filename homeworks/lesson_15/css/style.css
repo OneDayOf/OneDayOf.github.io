@@ -64,6 +64,7 @@ h2 {
  border-radius: 3px;
  background: rgb(64,199,129);
  box-shadow: 0 -3px rgb(53,167,110) inset, 2px 2px rgba(0,0,0,.4);
+ cursor: pointer;
  transition: 0.2s;
 }
 
@@ -83,6 +84,7 @@ h2 {
  border-color: #FDBE33 #000 #D77206;
  border-radius: 6px;
  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+ cursor: pointer;
  transition: 0.2s;
 }
 
