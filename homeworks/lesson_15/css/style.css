@@ -60,10 +60,10 @@ h2 {
 	font-weight: 700;
 	font-size: 14px;
  color: white;
- padding: .8em 1em calc(.8em + 3px);
+ padding: .8em calc(1em + 2px) calc(.8em + 3px);
  border-radius: 3px;
  background: rgb(64,199,129);
- box-shadow: 0 -3px rgb(53,167,110) inset, 2px 2px rgba(0,0,0,.4);
+ box-shadow: -2px -3px rgb(53,167,110) inset, 2px 2px rgba(0,0,0,.4);
  cursor: pointer;
  transition: 0.2s;
 }
