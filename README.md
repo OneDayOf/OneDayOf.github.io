@@ -39,3 +39,5 @@
 [Урок 15](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_15 "Псевдоклассы и псевдоэлементы.") - Псевдоклассы и псевдоэлементы.
 
 [Практика Часть 3](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_practice_3 "Практика. Часть 3.") - Практика. Часть 3.
+
+[Урок 16](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_16 "Слайдер на сайте.") - Слайдер на сайте.
