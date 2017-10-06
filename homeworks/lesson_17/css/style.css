@@ -1,0 +1,13 @@
+.del-btn:focus,
+.del-btn:active,
+.del-btn:hover,
+.del-btn:active:focus{
+	outline: none;
+}
+.del-btn{
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
