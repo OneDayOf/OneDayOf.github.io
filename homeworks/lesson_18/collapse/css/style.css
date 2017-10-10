@@ -56,7 +56,9 @@ h1:after{
 	color: #fff;
 }
 
-.panel-default>.panel-heading>.panel-title>a:hover,.panel-default>.panel-heading>.panel-title>a:focus{
+.panel-default>.panel-heading>.panel-title>a:hover,
+.panel-default>.panel-heading>.panel-title>a:focus,
+.panel-default>.panel-heading>.panel-title>a:visited {
 	text-decoration: none;
 	outline: none;
 }
