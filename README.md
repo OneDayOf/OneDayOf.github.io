@@ -47,3 +47,7 @@
 [Урок 17](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_17 "Всплывающие окна.") - Всплывающие окна.
 
 [Практика Часть 5](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_practice_5 "Практика. Часть 5.") - Практика. Часть 5.
+
+[Урок 18](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_18 "Табы и аккордеон на сайте.") - Табы и аккордеон на сайте.
+
+[Практика Часть 6](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_practice_5 "Практика. Часть 6.") - Практика. Часть 6.
