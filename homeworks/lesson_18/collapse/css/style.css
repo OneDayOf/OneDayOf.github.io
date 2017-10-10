@@ -47,11 +47,24 @@ h1:after{
 	background-color: #0BBAF0;
 	border: none;
 	border-radius: 0;
+}
+
+.panel-default>.panel-heading>.panel-title>a{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 23px;
 	color: #fff;
+}
+
+.panel-default>.panel-heading>.panel-title>a:hover{
+	text-decoration: none;
 }
 
 .panel-default>.panel-heading+.panel-collapse>.panel-body{
 	margin: 0 10px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
 	background-color: #FFF;
 	border: 3px solid #ccc;
 	border-top: none;
