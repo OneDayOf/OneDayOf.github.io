@@ -41,3 +41,9 @@
 [Практика Часть 3](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_practice_3 "Практика. Часть 3.") - Практика. Часть 3.
 
 [Урок 16](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_16 "Слайдер на сайте.") - Слайдер на сайте.
+
+[Практика Часть 4](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_practice_4 "Практика. Часть 4.") - Практика. Часть 4.
+
+[Урок 17](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_17 "Всплывающие окна.") - Всплывающие окна.
+
+[Практика Часть 5](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_practice_5 "Практика. Часть 5.") - Практика. Часть 5.
