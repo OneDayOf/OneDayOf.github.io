@@ -51,3 +51,7 @@
 [Урок 18](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_18 "Табы и аккордеон на сайте.") - Табы и аккордеон на сайте.
 
 [Практика Часть 6](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_practice_5 "Практика. Часть 6.") - Практика. Часть 6.
+
+[Урок 19](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_19 "Анимация на CSS3.") - Анимация на CSS3.
+
+[Практика Часть 7](https://github.com/OneDayOf/OneDayOf.github.io/tree/master/homeworks/lesson_practice_5 "Практика. Часть 7.") - Практика. Часть 7.
