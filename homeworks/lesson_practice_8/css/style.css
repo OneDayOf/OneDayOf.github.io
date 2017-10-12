@@ -1,0 +1,528 @@
+/* Colors */
+/* Fonts */
+.bold {
+  font-family: 'Proxima Semibold', sans-serif;
+}
+.light {
+  font-family: 'Proxima Light', sans-serif;
+}
+.nova-bold {
+  font-family: 'Proxima Nova Bold', sans-serif;
+}
+.reg {
+  font-family: 'Proxima Nova Rg', sans-serif;
+}
+/* Basic settings */
+html {
+  font-size: 10px;
+}
+section {
+  padding: 10rem 0;
+}
+.section-header {
+  margin: 2rem 0 10rem;
+  font-family: 'Proxima Semibold', sans-serif;
+  font-size: 3.6rem;
+  text-align: center;
+}
+.btn-bsc {
+  background-color: #f8af01;
+  font-family: 'Proxima Semibold', sans-serif;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus,
+button:active,
+input:active,
+a:active,
+textarea:active,
+button:hover,
+input:hover,
+a:hover,
+textarea:hover {
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+/* Форма */
+.form-title {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 3.3rem;
+}
+.form-input {
+  position: relative;
+  width: 100%;
+  font-family: 'Proxima Semibold', sans-serif;
+  margin-bottom: 2rem;
+  padding: 1.5rem 2rem;
+  border-radius: .5rem;
+  border: 1px solid #f5f5f5;
+}
+.form-input-label {
+  position: absolute;
+  display: inline-block;
+  font-size: 1.3rem;
+  font-family: 'Proxima Nova Rg', sans-serif;
+  padding: 1rem;
+  background-color: #ffffff;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -2rem);
+          transform: translate(-50%, -2rem);
+}
+.form-input-area {
+  resize: none;
+}
+.form-btn {
+  background-color: #f8af01;
+  font-family: 'Proxima Semibold', sans-serif;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 2rem;
+  margin: auto;
+  font-size: 1.6rem;
+}
+/* Styles */
+.button {
+  background-color: #f8af01;
+  font-family: 'Proxima Semibold', sans-serif;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+  font-size: 1.3rem;
+}
+.button:hover {
+  background-color: #df9d01;
+}
+.main {
+  padding: 3rem 0;
+  background: url(../img/main-bg.jpg) no-repeat center / cover;
+}
+.main-content {
+  margin-top: 10rem;
+}
+.main-title h1 {
+  font-family: 'Proxima Nova Bold', sans-serif;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+.main-subtitle {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 5rem;
+}
+.main-cost {
+  display: inline-block;
+  font-family: 'Proxima Semibold', sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #fff;
+  background-color: #48bc14;
+  padding: 3rem 4rem;
+  margin-bottom: 2.5rem;
+}
+.main-cost span {
+  font-size: 3rem;
+}
+.main-trigger {
+  font-family: 'Proxima Nova Bold', sans-serif;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+.main-form {
+  background-color: #ffffff;
+  padding: 5rem;
+  text-align: center;
+}
+.main-form-title {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 3.3rem;
+}
+.main-form-title strong {
+  font-family: 'Proxima Nova Bold', sans-serif;
+}
+.main-form-small {
+  text-align: center;
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.main-form-sub-info {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 1.2rem;
+  margin: 2rem 2.5rem;
+}
+.header {
+  height: 7rem;
+}
+.phone-link {
+  display: inline-block;
+  font-family: 'Proxima Nova Bold', sans-serif;
+  font-size: 2rem;
+  height: 7rem;
+  line-height: 7rem;
+  color: #1a1820;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* Оформление секции с преимуществами */
+.features-block {
+  text-align: center;
+}
+.features-block h3 {
+  font-family: 'Proxima Semibold', sans-serif;
+  font-size: 2rem;
+  margin: 5rem auto 4rem;
+}
+.features-block p {
+  display: inline-block;
+  width: 80%;
+  font-size: 1.6rem;
+}
+.features-img {
+  height: 6rem;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+.slick-active {
+  outline: none;
+}
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border: none;
+  width: 2rem;
+  height: 3rem;
+  background: url(../img/arrow-left.svg) no-repeat center;
+  background-size: 100%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 99;
+}
+.next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  border: none;
+  width: 2rem;
+  height: 3rem;
+  background: url(../img/arrow-right.svg) no-repeat center;
+  background-size: 100%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 99;
+}
+.prices {
+  background: #286b0a url(../img/prices/prices-bg.jpg);
+}
+.prices .wrap {
+  text-align: center;
+}
+.prices-items {
+  margin-top: 2rem;
+}
+.prices-header {
+  font-family: 'Proxima Semibold', sans-serif;
+  margin: 0;
+  font-size: 3.6rem;
+  color: #ffffff;
+  text-align: center;
+}
+.prices-header-description {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  margin-top: 4rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-align: center;
+}
+.prices-item {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 1rem 2rem 4rem;
+}
+.prices-item img {
+  width: 100%;
+  max-width: 30rem;
+}
+.prices-item-header {
+  display: inline-block;
+  min-height: 5rem;
+  margin-top: 2rem;
+  font-family: 'Proxima Semibold', sans-serif;
+  font-size: 1.9rem;
+}
+.prices-item-cost {
+  font-size: 1.9rem;
+  margin: 2rem;
+  display: block;
+  font-family: 'Proxima Semibold', sans-serif;
+}
+.prices-item-cost strong {
+  font-size: 3rem;
+}
+.prices-list {
+  list-style: none;
+  padding: 0;
+  min-height: 14rem;
+}
+.prices-list li {
+  font-size: 1.6rem;
+  font-family: 'Proxima Nova Rg', sans-serif;
+  line-height: 1.6;
+}
+.prices-list li:before {
+  content: "";
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background: url(../img/icons/checked.svg) no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+  margin-right: .5rem;
+}
+/* Feedback */
+.feedback {
+  background: url(../img/feedback/feedback-bg.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.feedback p {
+  font-size: 1.6rem;
+}
+.feedback .media {
+  margin-top: 3rem;
+  font-size: 1.4rem;
+}
+.feedback .media h4 {
+  font-family: 'Proxima Semibold', sans-serif;
+}
+.feedback-text {
+  position: relative;
+  padding: 1rem;
+  margin-top: 2.5rem;
+  border: 2px solid #48bc14;
+  font-style: italic;
+}
+.feedback-text::before {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 2px solid transparent;
+  border-left-color: #48bc14;
+  border-bottom-color: #ffffff;
+  background-color: transparent;
+  width: 2rem;
+  height: 2rem;
+  left: 3rem;
+  top: -2rem;
+}
+.feedback-text::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 2rem;
+  height: 2.9rem;
+  border: 2px solid transparent;
+  border-right-color: #48bc14;
+  left: 2.4rem;
+  top: -1.8rem;
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+}
+.feedback-prev-btn {
+  left: -4rem;
+}
+.feedback-next-btn {
+  right: -4rem;
+}
+.feedback-slider {
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 12px 18px 0px rgba(0, 0, 0, 0.11);
+          box-shadow: 0px 12px 18px 0px rgba(0, 0, 0, 0.11);
+  padding: 5rem 6rem;
+}
+.feedback-slider-btn {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 4rem;
+  height: 5rem;
+  background: #48bc14;
+  border: none;
+}
+.feedback-slider-btn img {
+  width: 50%;
+}
+.feedback-form {
+  background-color: #ffffff;
+  padding: 4rem 10rem;
+  position: relative;
+  margin-top: 6rem;
+  text-align: center;
+}
+.feedback-form-title {
+  font-family: 'Proxima Semibold', sans-serif;
+  font-size: 2.2rem;
+}
+.feedback-form-btn {
+  max-width: 25rem;
+  margin: auto;
+}
+.feedback-hand {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  max-width: 30%;
+}
+/* Всплывающие окна */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 9;
+}
+.popup-header {
+  font-family: 'Proxima Semibold', sans-serif;
+}
+.popup-form {
+  margin-top: 3rem;
+  padding: 0;
+}
+.popup-close {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: -1.5rem;
+  right: -3.5rem;
+  border: none;
+  font-size: 3rem;
+  color: #ffffff;
+  font-family: 'Proxima Light', sans-serif;
+  background-color: transparent;
+}
+.popup-content {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #FFF;
+  padding: 4rem 3.7rem;
+  width: 35rem;
+  text-align: center;
+}
+@media (max-width: 1199px) {
+  .feedback-form {
+    padding: 2rem 4rem;
+  }
+  .feedback .fotorama {
+    margin-bottom: 4rem;
+  }
+  .feedback-hand {
+    max-width: 25%;
+  }
+}
+@media (max-width: 991px) {
+  section {
+    padding: 5rem 0;
+  }
+  .section-header {
+    margin: 2rem 0 5rem;
+  }
+  .main {
+    background-position: top right;
+  }
+  .phone-link {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 5rem;
+  }
+  .main-title {
+    text-align: center;
+  }
+  .prices-item {
+    margin-top: 5rem;
+  }
+  .feedback-form {
+    padding: 2rem 4rem;
+  }
+  .feedback-hand {
+    display: none;
+  }
+  .popup-close {
+    top: 0;
+    right: 1rem;
+    color: #1a1820;
+    font-family: 'Proxima Light', sans-serif;
+  }
+}
+@media (max-width: 767px) {
+  section {
+    padding: 5rem 0;
+  }
+  .section-header {
+    margin: 2rem 0 5rem;
+  }
+  .main {
+    background-position: top left;
+  }
+  .main-title h1 {
+    font-size: 2.5rem;
+  }
+  .header {
+    text-align: center;
+  }
+  .prices-item {
+    margin-top: 5rem;
+  }
+  .feedback-form {
+    padding: 2rem 2rem;
+  }
+  .feedback-prev-btn {
+    left: 0;
+  }
+  .feedback-next-btn {
+    right: 0;
+  }
+  .popup-close {
+    top: 0;
+    right: 1rem;
+    color: #1a1820;
+    font-family: 'Proxima Light', sans-serif;
+  }
+}
+/*# sourceMappingURL=style.css.map */
