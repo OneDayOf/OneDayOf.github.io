@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -50,9 +50,9 @@
        <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
          <div class="main-form">
            <p class="form-title">Для расчёта точной стоимости<br>закажите <strong>выезд замерщика</strong></p>
-           <form action="#">
+           <form class="form" action="#">
              <label for="name" class="form-input-label">Ваше имя</label>
-             <input class="form-input" type="name" id="name">
+             <input class="form-input" type="text" id="name">
              <label for="tel" class="form-input-label">Номер телефона</label>
              <input class="form-input" type="tel" id="tel">
              <button class="button form-btn">оставьте заявку</button>
@@ -78,7 +78,7 @@
       <div class="features-block">
         <div class="features-img">
           <picture>
-            <source srcset="img/features/feature_1.svg" type="image/">
+            <source srcset="img/features/feature_1.svg" type="image/svg">
             <img src="img/features/feature_1.png" alt="Платите по факту">
           </picture>
         </div>
@@ -88,7 +88,7 @@
       <div class="features-block">
         <div class="features-img">
           <picture>
-            <source srcset="img/features/feature_2.svg" type="image/">
+            <source srcset="img/features/feature_2.svg" type="image/svg">
             <img src="img/features/feature_2.png" alt="Заключаем договор">
           </picture>
         </div>
@@ -98,7 +98,7 @@
       <div class="features-block">
         <div class="features-img">
           <picture>
-            <source srcset="img/features/feature_3.svg" type="image/">
+            <source srcset="img/features/feature_3.svg" type="image/svg">
             <img src="img/features/feature_3.png" alt="Точно в срок">
           </picture>
         </div>
@@ -108,7 +108,7 @@
       <div class="features-block">
         <div class="features-img">
           <picture>
-            <source srcset="img/features/feature_4.svg" type="image/">
+            <source srcset="img/features/feature_4.svg" type="image/svg">
             <img src="img/features/feature_4.png" alt="Экономите на материалах">
           </picture>
         </div>
@@ -179,6 +179,7 @@
       </div>
     </div>
   </div>
+</div>
 </section>
 
 <section class="feedback">
@@ -334,17 +335,17 @@
         Заинтересовались?
       </h4>
       <p>Оставьте свои контактные данные<br> для связи</p>
-        <div class="form popup-form">
-            <form action="#">
-             <label for="popup-name" class="form-input-label">Ваше имя</label>
-             <input class="form-input" type="name" id="popup-name">
-             <label for="popup-tel" class="form-input-label">Номер телефона</label>
-             <input class="form-input" type="tel" id="popup-tel">
-             <label for="popup-mess" class="form-input-label">Сообщение</label>
-             <textarea class="form-input form-input-area" rows="3" id="popup-mess"></textarea>
-             <button class="button form-btn">оставьте заявку</button>
-            </form>
-          </div>
+        <div class="popup-form">
+          <form class="form" action="#">
+           <label for="popup-name" class="form-input-label">Ваше имя</label>
+           <input class="form-input" type="text" id="popup-name">
+           <label for="popup-tel" class="form-input-label">Номер телефона</label>
+           <input class="form-input" type="tel" id="popup-tel">
+           <label for="popup-mess" class="form-input-label">Сообщение</label>
+           <textarea class="form-input form-input-area" rows="3" id="popup-mess"></textarea>
+           <button class="button form-btn">оставьте заявку</button>
+          </form>
+        </div>
     </div>
   </div>
 </div>
@@ -359,7 +360,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 <script>
   $(document).ready(function(){
-    $('.popup-btn').on('click', function(event){
+     $('.popup-btn').on('click', function(event){
       event.preventDefault();
       $('.popup').fadeIn();
     });
