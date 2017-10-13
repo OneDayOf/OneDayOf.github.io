@@ -14,7 +14,6 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 		<link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css">
   </head>
   <body>
 
@@ -43,19 +42,23 @@
          <div class="main-title">
            <h1>Автоматизированная штукатурка стен</h1>
            <p class="main-subtitle">Идеально ровные стены<br> в кратчайшие сроки</p>
-           <p class="main-cost">Стоимость работ<br> от <span>300</span> руб/м<sup>2</sup></p>
-           <p class="main-trigger">Оплата по факту</p>
+           <span class="main-cost">Стоимость работ<br> от <strong>300</strong> руб/м<sup>2</sup></span>
+           <strong class="main-trigger">Оплата по факту</strong>
          </div>
        </div>
        <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
          <div class="main-form">
            <p class="form-title">Для расчёта точной стоимости<br>закажите <strong>выезд замерщика</strong></p>
            <form class="form" action="#">
-             <label for="name" class="form-input-label">Ваше имя</label>
-             <input class="form-input" type="text" id="name">
-             <label for="tel" class="form-input-label">Номер телефона</label>
-             <input class="form-input" type="tel" id="tel">
-             <button class="button form-btn">оставьте заявку</button>
+             <div>
+               <label class="form-input-label" for="main-name">Ваше имя</label>
+               <input class="form-input" type="text" id="main-name">
+             </div>
+             <div>
+               <label class="form-input-label" for="main-tel">Номер телефона</label>
+               <input class="form-input" type="tel" id="main-tel">
+             </div>
+             <button class="button form-btn" type="submit">оставьте заявку</button>
             </form>
            <p class="main-form-small">
              <small>Приедем в день обращения*</small>
@@ -337,12 +340,18 @@
       <p>Оставьте свои контактные данные<br> для связи</p>
         <div class="popup-form">
           <form class="form" action="#">
-           <label for="popup-name" class="form-input-label">Ваше имя</label>
-           <input class="form-input" type="text" id="popup-name">
-           <label for="popup-tel" class="form-input-label">Номер телефона</label>
-           <input class="form-input" type="tel" id="popup-tel">
-           <label for="popup-mess" class="form-input-label">Сообщение</label>
-           <textarea class="form-input form-input-area" rows="3" id="popup-mess"></textarea>
+           <div>
+             <label for="popup-name" class="form-input-label">Ваше имя</label>
+             <input class="form-input" type="text" id="popup-name">
+           </div>
+           <div>
+             <label for="popup-tel" class="form-input-label">Номер телефона</label>
+             <input class="form-input" type="tel" id="popup-tel">
+           </div>
+           <div>
+             <label for="popup-mess" class="form-input-label">Сообщение</label>
+             <textarea class="form-input form-input-area" rows="3" id="popup-mess"></textarea>
+           </div>
            <button class="button form-btn">оставьте заявку</button>
           </form>
         </div>
